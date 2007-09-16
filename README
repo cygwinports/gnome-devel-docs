@@ -1,0 +1,169 @@
+gnome-devel-docs
+------------------------------------------
+GNOME Developer Platform documentation
+
+Build requirements:
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.10-1.10-1
+  cygport-0.3.5-1
+  gnome-common-2.18.0-1
+  gnome-doc-utils-0.10.3-1
+  intltool-0.35.5-1
+  make-3.81-1
+  pkg-config-0.21-1
+  scrollkeeper-0.3.14-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.gnome.org/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/gnome/sources/gnome-devel-docs/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnome-devel-docs-2.19.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnome-devel-docs-2.19.1-X.cygport all
+
+This will create:
+  /usr/src/gnome-devel-docs-2.19.1-X-src.tar.bz2
+  /usr/src/gnome-devel-docs-2.19.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/gnome-devel-docs.sh
+  /etc/preremove/gnome-devel-docs.sh
+  /usr/share/doc/Cygwin/gnome-devel-docs-2.19.1.README
+  /usr/share/doc/gnome-devel-docs-2.19.1/AUTHORS
+  /usr/share/doc/gnome-devel-docs-2.19.1/COPYING
+  /usr/share/doc/gnome-devel-docs-2.19.1/ChangeLog
+  /usr/share/doc/gnome-devel-docs-2.19.1/INSTALL
+  /usr/share/doc/gnome-devel-docs-2.19.1/NEWS
+  /usr/share/doc/gnome-devel-docs-2.19.1/README
+  /usr/share/gnome/help/gdp-handbook/C/builddocs.xml
+  /usr/share/gnome/help/gdp-handbook/C/callout_procedure.xml
+  /usr/share/gnome/help/gdp-handbook/C/contexthelp.xml
+  /usr/share/gnome/help/gdp-handbook/C/conventions.xml
+  /usr/share/gnome/help/gdp-handbook/C/crossreferencing.xml
+  /usr/share/gnome/help/gdp-handbook/C/docbook.xml
+  /usr/share/gnome/help/gdp-handbook/C/docsystem.xml
+  /usr/share/gnome/help/gdp-handbook/C/finish.xml
+  /usr/share/gnome/help/gdp-handbook/C/gdp-handbook.xml
+  /usr/share/gnome/help/gdp-handbook/C/getstarted.xml
+  /usr/share/gnome/help/gdp-handbook/C/introduction.xml
+  /usr/share/gnome/help/gdp-handbook/C/legal.xml
+  /usr/share/gnome/help/gdp-handbook/C/manuals.xml
+  /usr/share/gnome/help/gdp-handbook/C/resources.xml
+  /usr/share/gnome/help/gdp-handbook/C/screenshot_procedure.xml
+  /usr/share/gnome/help/gdp-handbook/C/sectids.xml
+  /usr/share/gnome/help/gdp-handbook/C/teamwork.xml
+  /usr/share/gnome/help/gdp-style-guide/C/Authorlist.xml
+  /usr/share/gnome/help/gdp-style-guide/C/accessibility.xml
+  /usr/share/gnome/help/gdp-style-guide/C/figures/applet_popup_menu.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/arrow_button1.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/arrow_button2.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/callout_notflow.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/check_box.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/color_selector_button.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/color_wheel1.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/color_wheel2.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/column_heading.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/command_button.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/desktop_background_menu.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/desktop_elements.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/dropdown_combination_box.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/dropdown_list_box.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/dropdown_section1.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/dropdown_section2.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/field.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/font_selector_button.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/footprint_icon.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/gnome_menu.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/group_box.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/icon_selector_button1.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/icon_selector_button2.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/launcher_popup_menu.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/list_box.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/panel_elements.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/panel_object_popup_menu.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/panel_popup_menu.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/radio_button.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/sample_anno_panel.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/scrollbar.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/slider.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/spin_box.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/tabbed_section.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/table.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/tabs.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/text_box.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/toggle_button.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/toolbar_button.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/window_elements.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/window_frame_button.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/window_list_button.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/window_menu.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/window_panes.png
+  /usr/share/gnome/help/gdp-style-guide/C/figures/window_titlebar_elements.png
+  /usr/share/gnome/help/gdp-style-guide/C/fundamentals.xml
+  /usr/share/gnome/help/gdp-style-guide/C/gdp-style-guide.xml
+  /usr/share/gnome/help/gdp-style-guide/C/grammar_usage.xml
+  /usr/share/gnome/help/gdp-style-guide/C/gui.xml
+  /usr/share/gnome/help/gdp-style-guide/C/improving.xml
+  /usr/share/gnome/help/gdp-style-guide/C/indexing.xml
+  /usr/share/gnome/help/gdp-style-guide/C/infoblocks.xml
+  /usr/share/gnome/help/gdp-style-guide/C/infodesign.xml
+  /usr/share/gnome/help/gdp-style-guide/C/language.xml
+  /usr/share/gnome/help/gdp-style-guide/C/legal.xml
+  /usr/share/gnome/help/gdp-style-guide/C/legal_issues.xml
+  /usr/share/gnome/help/gdp-style-guide/C/locale.xml
+  /usr/share/gnome/help/gdp-style-guide/C/preface.xml
+  /usr/share/gnome/help/gdp-style-guide/C/screenshot.xml
+  /usr/share/gnome/help/gdp-style-guide/C/units.xml
+  /usr/share/gnome/help/gdp-style-guide/C/usability.xml
+  /usr/share/gnome/help/gdp-style-guide/C/wordlist.xml
+  /usr/share/gnome/help/platform-overview/C/apx-modules.xml
+  /usr/share/gnome/help/platform-overview/C/bindings.xml
+  /usr/share/gnome/help/platform-overview/C/core-tech.xml
+  /usr/share/gnome/help/platform-overview/C/desktop-tech.xml
+  /usr/share/gnome/help/platform-overview/C/figures/graphics.png
+  /usr/share/gnome/help/platform-overview/C/figures/i18n.png
+  /usr/share/gnome/help/platform-overview/C/figures/pango.png
+  /usr/share/gnome/help/platform-overview/C/intro.xml
+  /usr/share/gnome/help/platform-overview/C/ipc-network.xml
+  /usr/share/gnome/help/platform-overview/C/legal-fdl.xml
+  /usr/share/gnome/help/platform-overview/C/platform-overview.xml
+  /usr/share/gnome/help/platform-overview/C/platform.xml
+  /usr/share/gnome/help/platform-overview/es/apx-modules.xml
+  /usr/share/gnome/help/platform-overview/es/bindings.xml
+  /usr/share/gnome/help/platform-overview/es/core-tech.xml
+  /usr/share/gnome/help/platform-overview/es/desktop-tech.xml
+  /usr/share/gnome/help/platform-overview/es/figures/graphics.png
+  /usr/share/gnome/help/platform-overview/es/figures/i18n.png
+  /usr/share/gnome/help/platform-overview/es/figures/pango.png
+  /usr/share/gnome/help/platform-overview/es/intro.xml
+  /usr/share/gnome/help/platform-overview/es/ipc-network.xml
+  /usr/share/gnome/help/platform-overview/es/legal-fdl.xml
+  /usr/share/gnome/help/platform-overview/es/platform-overview.xml
+  /usr/share/gnome/help/platform-overview/es/platform.xml
+  /usr/share/omf/gdp-handbook/gdp-handbook-C.omf
+  /usr/share/omf/gdp-style-guide/gdp-style-guide-C.omf
+  /usr/share/omf/platform-overview/platform-overview-C.omf
+  /usr/share/omf/platform-overview/platform-overview-es.omf
+
+------------------
+
+Port Notes:
+
+----- version 2.19.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
