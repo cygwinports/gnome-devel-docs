@@ -3,16 +3,16 @@ gnome-devel-docs
 GNOME Developer Platform documentation
 
 Build requirements:
-  cygwin-1.5.25-15
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
-  cygport-0.4.3-1
-  gnome-common-2.24.0-1
-  gnome-doc-utils-0.14.0-1
-  intltool-0.40.5-1
-  make-3.81-1
-  pkg-config-0.23a-2
-  rarian-0.8.1-1
+  cygwin-1.7.0-45
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
+  cygport-0.9.6-1
+  gnome-common-2.26.0-1
+  gnome-doc-utils-0.16.0-1
+  intltool-0.40.6-1
+  make-3.81-2
+  pkg-config-0.23b-10
+  rarian-0.8.1-10
   sed-4.1.5-2
 
 Canonical website:
@@ -24,391 +24,66 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-devel-docs-2.22.0-X-src.tar.bz2
+  unpack gnome-devel-docs-2.26.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-devel-docs-2.22.0-X.cygport all
+  cygport ./gnome-devel-docs-2.26.1-X.cygport all
 
 This will create:
-  /usr/src/gnome-devel-docs-2.22.0-X-src.tar.bz2
-  /usr/src/gnome-devel-docs-2.22.0-X.tar.bz2
+  /usr/src/gnome-devel-docs-2.26.1-X-src.tar.bz2
+  /usr/src/gnome-devel-docs-2.26.1-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/share/doc/gnome-devel-docs-2.24.1/AUTHORS
-  /usr/share/doc/gnome-devel-docs-2.24.1/COPYING
-  /usr/share/doc/gnome-devel-docs-2.24.1/ChangeLog
-  /usr/share/doc/gnome-devel-docs-2.24.1/INSTALL
-  /usr/share/doc/gnome-devel-docs-2.24.1/NEWS
-  /usr/share/doc/gnome-devel-docs-2.24.1/README
-  /usr/share/gnome/help/gdp-handbook/C/builddocs.xml
-  /usr/share/gnome/help/gdp-handbook/C/callout_procedure.xml
-  /usr/share/gnome/help/gdp-handbook/C/contexthelp.xml
-  /usr/share/gnome/help/gdp-handbook/C/conventions.xml
-  /usr/share/gnome/help/gdp-handbook/C/crossreferencing.xml
-  /usr/share/gnome/help/gdp-handbook/C/docbook.xml
-  /usr/share/gnome/help/gdp-handbook/C/docsystem.xml
-  /usr/share/gnome/help/gdp-handbook/C/finish.xml
-  /usr/share/gnome/help/gdp-handbook/C/gdp-handbook.xml
-  /usr/share/gnome/help/gdp-handbook/C/getstarted.xml
-  /usr/share/gnome/help/gdp-handbook/C/introduction.xml
-  /usr/share/gnome/help/gdp-handbook/C/legal.xml
-  /usr/share/gnome/help/gdp-handbook/C/manuals.xml
-  /usr/share/gnome/help/gdp-handbook/C/resources.xml
-  /usr/share/gnome/help/gdp-handbook/C/screenshot_procedure.xml
-  /usr/share/gnome/help/gdp-handbook/C/sectids.xml
-  /usr/share/gnome/help/gdp-handbook/C/teamwork.xml
-  /usr/share/gnome/help/gdp-style-guide/C/Authorlist.xml
-  /usr/share/gnome/help/gdp-style-guide/C/accessibility.xml
-  /usr/share/gnome/help/gdp-style-guide/C/figures/applet_popup_menu.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/arrow_button1.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/arrow_button2.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/callout_notflow.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/check_box.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/color_selector_button.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/color_wheel1.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/color_wheel2.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/column_heading.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/command_button.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/desktop_background_menu.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/desktop_elements.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/dropdown_combination_box.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/dropdown_list_box.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/dropdown_section1.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/dropdown_section2.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/field.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/font_selector_button.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/footprint_icon.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/gnome_menu.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/group_box.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/icon_selector_button1.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/icon_selector_button2.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/launcher_popup_menu.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/list_box.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/panel_elements.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/panel_object_popup_menu.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/panel_popup_menu.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/radio_button.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/sample_anno_panel.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/scrollbar.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/slider.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/spin_box.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/tabbed_section.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/table.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/tabs.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/text_box.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/toggle_button.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/toolbar_button.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/window_elements.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/window_frame_button.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/window_list_button.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/window_menu.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/window_panes.png
-  /usr/share/gnome/help/gdp-style-guide/C/figures/window_titlebar_elements.png
-  /usr/share/gnome/help/gdp-style-guide/C/fundamentals.xml
-  /usr/share/gnome/help/gdp-style-guide/C/gdp-style-guide.xml
-  /usr/share/gnome/help/gdp-style-guide/C/grammar_usage.xml
-  /usr/share/gnome/help/gdp-style-guide/C/gui.xml
-  /usr/share/gnome/help/gdp-style-guide/C/improving.xml
-  /usr/share/gnome/help/gdp-style-guide/C/indexing.xml
-  /usr/share/gnome/help/gdp-style-guide/C/infoblocks.xml
-  /usr/share/gnome/help/gdp-style-guide/C/infodesign.xml
-  /usr/share/gnome/help/gdp-style-guide/C/language.xml
-  /usr/share/gnome/help/gdp-style-guide/C/legal.xml
-  /usr/share/gnome/help/gdp-style-guide/C/legal_issues.xml
-  /usr/share/gnome/help/gdp-style-guide/C/locale.xml
-  /usr/share/gnome/help/gdp-style-guide/C/preface.xml
-  /usr/share/gnome/help/gdp-style-guide/C/screenshot.xml
-  /usr/share/gnome/help/gdp-style-guide/C/units.xml
-  /usr/share/gnome/help/gdp-style-guide/C/usability.xml
-  /usr/share/gnome/help/gdp-style-guide/C/wordlist.xml
-  /usr/share/gnome/help/hig-book/C/hig-book.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-bibliography.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-checks.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-controls.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-credits.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-desktop.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-feedback.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-icons-new.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-icons.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-input.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-intro.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-language.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-layout.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-menus.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-principles.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-toolbars.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-whatsnew.xml
-  /usr/share/gnome/help/hig-book/C/hig-ch-windows.xml
-  /usr/share/gnome/help/hig-book/C/images/controls-buttons.png
-  /usr/share/gnome/help/hig-book/C/images/controls-check-box-ambiguous.png
-  /usr/share/gnome/help/hig-book/C/images/controls-check-boxes-mixed.png
-  /usr/share/gnome/help/hig-book/C/images/controls-check-boxes.png
-  /usr/share/gnome/help/hig-book/C/images/controls-combo.png
-  /usr/share/gnome/help/hig-book/C/images/controls-frames.png
-  /usr/share/gnome/help/hig-book/C/images/controls-list-checkbox.png
-  /usr/share/gnome/help/hig-book/C/images/controls-list.png
-  /usr/share/gnome/help/hig-book/C/images/controls-locked.png
-  /usr/share/gnome/help/hig-book/C/images/controls-notebook-list.png
-  /usr/share/gnome/help/hig-book/C/images/controls-notebook-tabs.png
-  /usr/share/gnome/help/hig-book/C/images/controls-notebook.png
-  /usr/share/gnome/help/hig-book/C/images/controls-old-frames.png
-  /usr/share/gnome/help/hig-book/C/images/controls-option-menu.png
-  /usr/share/gnome/help/hig-book/C/images/controls-progress-indeterminate.png
-  /usr/share/gnome/help/hig-book/C/images/controls-progress-time.png
-  /usr/share/gnome/help/hig-book/C/images/controls-progress-typical.png
-  /usr/share/gnome/help/hig-book/C/images/controls-radio-button-mixed.png
-  /usr/share/gnome/help/hig-book/C/images/controls-radio-buttons.png
-  /usr/share/gnome/help/hig-book/C/images/controls-sensitivity.png
-  /usr/share/gnome/help/hig-book/C/images/controls-slider-spinbox.png
-  /usr/share/gnome/help/hig-book/C/images/controls-slider.png
-  /usr/share/gnome/help/hig-book/C/images/controls-spin-box.png
-  /usr/share/gnome/help/hig-book/C/images/controls-status-bar-interactive.png
-  /usr/share/gnome/help/hig-book/C/images/controls-status-bar.png
-  /usr/share/gnome/help/hig-book/C/images/controls-text-choose.png
-  /usr/share/gnome/help/hig-book/C/images/controls-text-prompt.png
-  /usr/share/gnome/help/hig-book/C/images/controls-text.png
-  /usr/share/gnome/help/hig-book/C/images/controls-toggle-button-mixed.png
-  /usr/share/gnome/help/hig-book/C/images/controls-toggle-buttons.png
-  /usr/share/gnome/help/hig-book/C/images/controls-tree-checkbox.png
-  /usr/share/gnome/help/hig-book/C/images/controls-tree.png
-  /usr/share/gnome/help/hig-book/C/images/desktop-applications-menu.png
-  /usr/share/gnome/help/hig-book/C/images/feedback-checklist-running.png
-  /usr/share/gnome/help/hig-book/C/images/feedback-pointers-busy.png
-  /usr/share/gnome/help/hig-book/C/images/icon-design-process-1.png
-  /usr/share/gnome/help/hig-book/C/images/icon-design-process-10.png
-  /usr/share/gnome/help/hig-book/C/images/icon-design-process-11.png
-  /usr/share/gnome/help/hig-book/C/images/icon-design-process-12.png
-  /usr/share/gnome/help/hig-book/C/images/icon-design-process-2.png
-  /usr/share/gnome/help/hig-book/C/images/icon-design-process-3.png
-  /usr/share/gnome/help/hig-book/C/images/icon-design-process-4.png
-  /usr/share/gnome/help/hig-book/C/images/icon-design-process-5.png
-  /usr/share/gnome/help/hig-book/C/images/icon-design-process-6.png
-  /usr/share/gnome/help/hig-book/C/images/icon-design-process-7.png
-  /usr/share/gnome/help/hig-book/C/images/icon-design-process-8.png
-  /usr/share/gnome/help/hig-book/C/images/icon-design-process-9.png
-  /usr/share/gnome/help/hig-book/C/images/icons-applications.png
-  /usr/share/gnome/help/hig-book/C/images/icons-evolution.png
-  /usr/share/gnome/help/hig-book/C/images/icons-floppy-dissected.png
-  /usr/share/gnome/help/hig-book/C/images/icons-font-selection-good.png
-  /usr/share/gnome/help/hig-book/C/images/icons-font-selection-poor.png
-  /usr/share/gnome/help/hig-book/C/images/icons-gedit.png
-  /usr/share/gnome/help/hig-book/C/images/icons-gnumeric.png
-  /usr/share/gnome/help/hig-book/C/images/icons-hc-book-blur.png
-  /usr/share/gnome/help/hig-book/C/images/icons-hc-book.png
-  /usr/share/gnome/help/hig-book/C/images/icons-hc-cdrom-blur.png
-  /usr/share/gnome/help/hig-book/C/images/icons-hc-cdrom.png
-  /usr/share/gnome/help/hig-book/C/images/icons-hc-copy-blur.png
-  /usr/share/gnome/help/hig-book/C/images/icons-hc-copy.png
-  /usr/share/gnome/help/hig-book/C/images/icons-hc-metaphors.png
-  /usr/share/gnome/help/hig-book/C/images/icons-lowcontrast-levels.png
-  /usr/share/gnome/help/hig-book/C/images/icons-menu.png
-  /usr/share/gnome/help/hig-book/C/images/icons-nautilus.png
-  /usr/share/gnome/help/hig-book/C/images/icons-objects.png
-  /usr/share/gnome/help/hig-book/C/images/icons-perspective-shelf.png
-  /usr/share/gnome/help/hig-book/C/images/icons-perspective-table.png
-  /usr/share/gnome/help/hig-book/C/images/icons-shut-down.png
-  /usr/share/gnome/help/hig-book/C/images/icons-silhouette.png
-  /usr/share/gnome/help/hig-book/C/images/icons-sodipodi.png
-  /usr/share/gnome/help/hig-book/C/images/icons-style-aqua.png
-  /usr/share/gnome/help/hig-book/C/images/icons-style-gnome.png
-  /usr/share/gnome/help/hig-book/C/images/icons-style-java.png
-  /usr/share/gnome/help/hig-book/C/images/icons-system-log.png
-  /usr/share/gnome/help/hig-book/C/images/icons-toolbar.png
-  /usr/share/gnome/help/hig-book/C/images/icons-underline-text.png
-  /usr/share/gnome/help/hig-book/C/images/icons-word-processor.png
-  /usr/share/gnome/help/hig-book/C/images/input-accesskeys-shortcuts.png
-  /usr/share/gnome/help/hig-book/C/images/input-drag-cursor-copy.png
-  /usr/share/gnome/help/hig-book/C/images/input-drag-cursor-link.png
-  /usr/share/gnome/help/hig-book/C/images/input-drag-cursor-move.png
-  /usr/share/gnome/help/hig-book/C/images/input-drag-cursor-nodrop.png
-  /usr/share/gnome/help/hig-book/C/images/input-drag-cursor-query.png
-  /usr/share/gnome/help/hig-book/C/images/input-drag-cursor.png
-  /usr/share/gnome/help/hig-book/C/images/input-drag-select-files.png
-  /usr/share/gnome/help/hig-book/C/images/input-drag-select-graphics.png
-  /usr/share/gnome/help/hig-book/C/images/input-pointing-devices.png
-  /usr/share/gnome/help/hig-book/C/images/menus-application.png
-  /usr/share/gnome/help/hig-book/C/images/menus-bookmarks.png
-  /usr/share/gnome/help/hig-book/C/images/menus-checkbox-group.png
-  /usr/share/gnome/help/hig-book/C/images/menus-command-group.png
-  /usr/share/gnome/help/hig-book/C/images/menus-dropdown.png
-  /usr/share/gnome/help/hig-book/C/images/menus-edit.png
-  /usr/share/gnome/help/hig-book/C/images/menus-file.png
-  /usr/share/gnome/help/hig-book/C/images/menus-format.png
-  /usr/share/gnome/help/hig-book/C/images/menus-go-browser.png
-  /usr/share/gnome/help/hig-book/C/images/menus-go-document.png
-  /usr/share/gnome/help/hig-book/C/images/menus-help.png
-  /usr/share/gnome/help/hig-book/C/images/menus-insert.png
-  /usr/share/gnome/help/hig-book/C/images/menus-popup.png
-  /usr/share/gnome/help/hig-book/C/images/menus-radiobutton-group.png
-  /usr/share/gnome/help/hig-book/C/images/menus-submenu.png
-  /usr/share/gnome/help/hig-book/C/images/menus-view.png
-  /usr/share/gnome/help/hig-book/C/images/menus-windows.png
-  /usr/share/gnome/help/hig-book/C/images/toolbars-configure-menu.png
-  /usr/share/gnome/help/hig-book/C/images/toolbars-labels-below.png
-  /usr/share/gnome/help/hig-book/C/images/toolbars-labels-beside.png
-  /usr/share/gnome/help/hig-book/C/images/toolbars-mail.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-button-label.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-colorblind-deutan.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-colorblind-normal.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-colorblind-tritan.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-large-icon-label.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-layout-annotated.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-layout-good.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-layout-poor.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-list-label.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-other-labels.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-1.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-10.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-11.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-12.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-13.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-14.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-15.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-16.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-17.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-18.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-19.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-2.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-20.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-21.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-22.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-23.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-24.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-25.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-26.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-27.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-28.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-29.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-3.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-30.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-31.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-32.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-4.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-5.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-6.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-7.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-8.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette-9.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-palette.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-radiobutton-label.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-small-icon-label.png
-  /usr/share/gnome/help/hig-book/C/images/visdes-textbox-label.png
-  /usr/share/gnome/help/hig-book/C/images/windows-alert-authentication.png
-  /usr/share/gnome/help/hig-book/C/images/windows-alert-buttons.png
-  /usr/share/gnome/help/hig-book/C/images/windows-alert-confirmation.png
-  /usr/share/gnome/help/hig-book/C/images/windows-alert-error.png
-  /usr/share/gnome/help/hig-book/C/images/windows-alert-information.png
-  /usr/share/gnome/help/hig-book/C/images/windows-alert-save.png
-  /usr/share/gnome/help/hig-book/C/images/windows-alert-spacing.png
-  /usr/share/gnome/help/hig-book/C/images/windows-alert-text.png
-  /usr/share/gnome/help/hig-book/C/images/windows-assistant-first-page.png
-  /usr/share/gnome/help/hig-book/C/images/windows-assistant-middle-page.png
-  /usr/share/gnome/help/hig-book/C/images/windows-dialog-tabbed.png
-  /usr/share/gnome/help/hig-book/C/images/windows-explicit-apply.png
-  /usr/share/gnome/help/hig-book/C/images/windows-mdi.png
-  /usr/share/gnome/help/hig-book/C/images/windows-preferences.png
-  /usr/share/gnome/help/hig-book/C/images/windows-primary.png
-  /usr/share/gnome/help/hig-book/C/images/windows-progress-checklist-done.png
-  /usr/share/gnome/help/hig-book/C/images/windows-progress-checklist-start.png
-  /usr/share/gnome/help/hig-book/C/images/windows-progress-checklist.png
-  /usr/share/gnome/help/hig-book/C/images/windows-progress-copy-file.png
-  /usr/share/gnome/help/hig-book/C/images/windows-progress.png
-  /usr/share/gnome/help/hig-book/C/images/windows-properties.png
-  /usr/share/gnome/help/hig-book/C/images/windows-sdi.png
-  /usr/share/gnome/help/hig-book/C/images/windows-titlebar.png
-  /usr/share/gnome/help/hig-book/C/images/windows-toolbox-large.png
-  /usr/share/gnome/help/hig-book/C/images/windows-toolbox-small.png
+  /usr/share/doc/gnome-devel-docs/AUTHORS
+  /usr/share/doc/gnome-devel-docs/COPYING
+  /usr/share/doc/gnome-devel-docs/ChangeLog
+  /usr/share/doc/gnome-devel-docs/NEWS
+  /usr/share/doc/gnome-devel-docs/README
+  /usr/share/gnome/help/accessibility-devel-guide/C/*
+  /usr/share/gnome/help/gdp-handbook/C/*
+  /usr/share/gnome/help/gdp-style-guide/C/*
+  /usr/share/gnome/help/hig-book/C/*
   /usr/share/gnome/help/integration-guide/C/integration-guide.xml
+  /usr/share/gnome/help/integration-guide/cs/integration-guide.xml
+  /usr/share/gnome/help/integration-guide/de/integration-guide.xml
+  /usr/share/gnome/help/integration-guide/el/integration-guide.xml
+  /usr/share/gnome/help/integration-guide/en_GB/integration-guide.xml
   /usr/share/gnome/help/integration-guide/es/integration-guide.xml
-  /usr/share/gnome/help/optimization-guide/C/figures/massif-after.png
-  /usr/share/gnome/help/optimization-guide/C/figures/massif-before.png
-  /usr/share/gnome/help/optimization-guide/C/optimization-guide.xml
-  /usr/share/gnome/help/optimization-guide/C/optimization-harmful.xml
-  /usr/share/gnome/help/optimization-guide/C/optimization-intro.xml
-  /usr/share/gnome/help/optimization-guide/C/optimization-massif.xml
-  /usr/share/gnome/help/platform-overview/C/apx-modules.xml
-  /usr/share/gnome/help/platform-overview/C/bindings.xml
-  /usr/share/gnome/help/platform-overview/C/core-tech.xml
-  /usr/share/gnome/help/platform-overview/C/desktop-tech.xml
-  /usr/share/gnome/help/platform-overview/C/figures/graphics.png
-  /usr/share/gnome/help/platform-overview/C/figures/i18n.png
-  /usr/share/gnome/help/platform-overview/C/figures/pango.png
-  /usr/share/gnome/help/platform-overview/C/intro.xml
-  /usr/share/gnome/help/platform-overview/C/ipc-network.xml
-  /usr/share/gnome/help/platform-overview/C/legal-fdl.xml
-  /usr/share/gnome/help/platform-overview/C/platform-overview.xml
-  /usr/share/gnome/help/platform-overview/C/platform.xml
-  /usr/share/gnome/help/platform-overview/es/apx-modules.xml
-  /usr/share/gnome/help/platform-overview/es/bindings.xml
-  /usr/share/gnome/help/platform-overview/es/core-tech.xml
-  /usr/share/gnome/help/platform-overview/es/desktop-tech.xml
-  /usr/share/gnome/help/platform-overview/es/figures/graphics.png
-  /usr/share/gnome/help/platform-overview/es/figures/i18n.png
-  /usr/share/gnome/help/platform-overview/es/figures/pango.png
-  /usr/share/gnome/help/platform-overview/es/intro.xml
-  /usr/share/gnome/help/platform-overview/es/ipc-network.xml
-  /usr/share/gnome/help/platform-overview/es/legal-fdl.xml
-  /usr/share/gnome/help/platform-overview/es/platform-overview.xml
-  /usr/share/gnome/help/platform-overview/es/platform.xml
-  /usr/share/gnome/help/platform-overview/fr/apx-modules.xml
-  /usr/share/gnome/help/platform-overview/fr/bindings.xml
-  /usr/share/gnome/help/platform-overview/fr/core-tech.xml
-  /usr/share/gnome/help/platform-overview/fr/desktop-tech.xml
-  /usr/share/gnome/help/platform-overview/fr/figures/graphics.png
-  /usr/share/gnome/help/platform-overview/fr/figures/i18n.png
-  /usr/share/gnome/help/platform-overview/fr/figures/pango.png
-  /usr/share/gnome/help/platform-overview/fr/intro.xml
-  /usr/share/gnome/help/platform-overview/fr/ipc-network.xml
-  /usr/share/gnome/help/platform-overview/fr/legal-fdl.xml
-  /usr/share/gnome/help/platform-overview/fr/platform-overview.xml
-  /usr/share/gnome/help/platform-overview/fr/platform.xml
-  /usr/share/gnome/help/platform-overview/it/apx-modules.xml
-  /usr/share/gnome/help/platform-overview/it/bindings.xml
-  /usr/share/gnome/help/platform-overview/it/core-tech.xml
-  /usr/share/gnome/help/platform-overview/it/desktop-tech.xml
-  /usr/share/gnome/help/platform-overview/it/figures/graphics.png
-  /usr/share/gnome/help/platform-overview/it/figures/i18n.png
-  /usr/share/gnome/help/platform-overview/it/figures/pango.png
-  /usr/share/gnome/help/platform-overview/it/intro.xml
-  /usr/share/gnome/help/platform-overview/it/ipc-network.xml
-  /usr/share/gnome/help/platform-overview/it/legal-fdl.xml
-  /usr/share/gnome/help/platform-overview/it/platform-overview.xml
-  /usr/share/gnome/help/platform-overview/it/platform.xml
-  /usr/share/gnome/help/platform-overview/oc/apx-modules.xml
-  /usr/share/gnome/help/platform-overview/oc/bindings.xml
-  /usr/share/gnome/help/platform-overview/oc/core-tech.xml
-  /usr/share/gnome/help/platform-overview/oc/desktop-tech.xml
-  /usr/share/gnome/help/platform-overview/oc/figures/graphics.png
-  /usr/share/gnome/help/platform-overview/oc/figures/i18n.png
-  /usr/share/gnome/help/platform-overview/oc/figures/pango.png
-  /usr/share/gnome/help/platform-overview/oc/intro.xml
-  /usr/share/gnome/help/platform-overview/oc/ipc-network.xml
-  /usr/share/gnome/help/platform-overview/oc/legal-fdl.xml
-  /usr/share/gnome/help/platform-overview/oc/platform-overview.xml
-  /usr/share/gnome/help/platform-overview/oc/platform.xml
-  /usr/share/gnome/help/platform-overview/ru/apx-modules.xml
-  /usr/share/gnome/help/platform-overview/ru/bindings.xml
-  /usr/share/gnome/help/platform-overview/ru/core-tech.xml
-  /usr/share/gnome/help/platform-overview/ru/desktop-tech.xml
-  /usr/share/gnome/help/platform-overview/ru/figures/graphics.png
-  /usr/share/gnome/help/platform-overview/ru/figures/i18n.png
-  /usr/share/gnome/help/platform-overview/ru/figures/pango.png
-  /usr/share/gnome/help/platform-overview/ru/intro.xml
-  /usr/share/gnome/help/platform-overview/ru/ipc-network.xml
-  /usr/share/gnome/help/platform-overview/ru/legal-fdl.xml
-  /usr/share/gnome/help/platform-overview/ru/platform-overview.xml
-  /usr/share/gnome/help/platform-overview/ru/platform.xml
+  /usr/share/gnome/help/integration-guide/fr/integration-guide.xml
+  /usr/share/gnome/help/integration-guide/pt_BR/integration-guide.xml
+  /usr/share/gnome/help/integration-guide/sv/integration-guide.xml
+  /usr/share/gnome/help/integration-guide/zh_CN/integration-guide.xml
+  /usr/share/gnome/help/optimization-guide/C/*
+  /usr/share/gnome/help/platform-overview/C/*
+  /usr/share/gnome/help/platform-overview/de/*
+  /usr/share/gnome/help/platform-overview/el/*
+  /usr/share/gnome/help/platform-overview/es/*
+  /usr/share/gnome/help/platform-overview/fr/*
+  /usr/share/gnome/help/platform-overview/it/*
+  /usr/share/gnome/help/platform-overview/oc/*
+  /usr/share/gnome/help/platform-overview/ru/*
+  /usr/share/omf/accessibility-devel-guide/accessibility-devel-guide-C.omf
   /usr/share/omf/gdp-handbook/gdp-handbook-C.omf
   /usr/share/omf/gdp-style-guide/gdp-style-guide-C.omf
   /usr/share/omf/hig-book/hig-book-C.omf
   /usr/share/omf/integration-guide/integration-guide-C.omf
+  /usr/share/omf/integration-guide/integration-guide-cs.omf
+  /usr/share/omf/integration-guide/integration-guide-de.omf
+  /usr/share/omf/integration-guide/integration-guide-el.omf
+  /usr/share/omf/integration-guide/integration-guide-en_GB.omf
   /usr/share/omf/integration-guide/integration-guide-es.omf
+  /usr/share/omf/integration-guide/integration-guide-fr.omf
+  /usr/share/omf/integration-guide/integration-guide-pt_BR.omf
+  /usr/share/omf/integration-guide/integration-guide-sv.omf
+  /usr/share/omf/integration-guide/integration-guide-zh_CN.omf
   /usr/share/omf/optimization-guide/optimization-guide-C.omf
   /usr/share/omf/platform-overview/platform-overview-C.omf
+  /usr/share/omf/platform-overview/platform-overview-de.omf
+  /usr/share/omf/platform-overview/platform-overview-el.omf
   /usr/share/omf/platform-overview/platform-overview-es.omf
   /usr/share/omf/platform-overview/platform-overview-fr.omf
   /usr/share/omf/platform-overview/platform-overview-it.omf
@@ -419,14 +94,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 2.22.0-1 -----
-Version bump for GNOME 2.22.
-
------ version 2.20.0-1 -----
-Version bump for GNOME 2.20.
-
------ version 2.19.1-1 -----
-Initial release for Cygwin.
+----- version 2.26.1-1 -----
+Initial release of GNOME 2.26 for Cygwin 1.7.
 
 
 Cygwin port maintained by:
