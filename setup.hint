@@ -1,3 +1,4 @@
 category: Gnome Doc
+requires:
 sdesc: "GNOME Developer Platform documentation"
 ldesc: "GNOME Developer Platform documentation"
