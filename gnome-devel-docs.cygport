@@ -1,0 +1,8 @@
+inherit gnome2
+
+NAME="gnome-devel-docs"
+VERSION=3.6.2
+RELEASE=1
+CATEGORY="GNOME Doc"
+SUMMARY="GNOME Developer Platform documentation"
+DESCRIPTION="GNOME Developer Platform documentation"
